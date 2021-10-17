@@ -28,7 +28,7 @@
           if(isset($_SESSION['pwd_updated']))
           {
             echo $_SESSION['pwd_updated']; //displaying password updation message
-            unset($_SESSION['pwd_updated']); //removing password updation message
+            unset($_SESSION['pwd_updated']); //removing password updation messages
           }
         ?>
 
